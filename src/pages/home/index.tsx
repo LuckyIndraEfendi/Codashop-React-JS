@@ -10,8 +10,8 @@ const Home = () => {
         <section id="swiper">
           <CardSlider />
         </section>
-        <section id="productList_recomendation" className="mt-12">
-          <h1 className="text-3xl font-poetsenOne text-white py-5">
+        <section id="productList_recomendation" className="mt-10 md:mt-12">
+          <h1 className="text-2xl md:text-3xl font-poetsenOne text-white py-5">
             Recomendation
           </h1>
           <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 mt-5 gap-5 row-auto">
@@ -20,7 +20,7 @@ const Home = () => {
         </section>
 
         <section id="productList_kode_voucher" className="mt-12">
-          <h1 className="text-3xl font-poetsenOne text-white py-5">
+          <h1 className="text-2xl md:text-3xl font-poetsenOne text-white py-5">
             BELI KODE VOUCHER
           </h1>
           <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 mt-5 gap-5 row-auto">
@@ -29,7 +29,7 @@ const Home = () => {
         </section>
 
         <section id="news" className="mt-12">
-          <h1 className="text-3xl font-poetsenOne text-white py-5">
+          <h1 className="text-2xl md:text-3xl font-poetsenOne text-white py-5">
             News and Update
           </h1>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
@@ -58,7 +58,7 @@ const Home = () => {
         </section>
 
         <section id="about_coda" className="mt-12">
-          <h1 className="text-3xl font-poetsenOne text-white py-5">
+          <h1 className="text-2xl md:text-3xl font-poetsenOne text-white py-5">
             Codashop Indonesia
           </h1>
 

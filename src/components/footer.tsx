@@ -22,7 +22,7 @@ const Footer = () => {
     <>
       <footer className="mt-40">
         <div className="footer-header bg-yellow-300">
-          <div className="w-[90%] m-auto pt-20 pb-10 flex gap-10">
+          <div className="w-[90%] m-auto pt-20 pb-10 flex gap-5 md:gap-10 flex-wrap">
             <div className="contact_us">
               <h1 className="font-text-content font-karla text-lg font-bold">
                 Butuh Bantuan?
@@ -96,7 +96,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-header-created bg-gray-200">
-          <div className="w-[90%] m-auto py-4 flex justify-between items-center">
+          <div className="w-[90%] m-auto py-4 flex justify-between items-center flex-col md:flex-row">
             <div className="copy_right">
               <h1 className="text-sm text-zinc-800 font-karla">
                 © 2024 PT. Coda Payments

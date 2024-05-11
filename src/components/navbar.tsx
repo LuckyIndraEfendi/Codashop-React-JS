@@ -16,7 +16,7 @@ const Navbar = () => {
               alt=""
               className="w-32 h-10 object-contain"
             />
-            <span className="text-white  text-lg font-light">
+            <span className="text-white  text-sm hidden md:block md:text-lg font-light">
               <i>Website top-up terbesar, tercepat dan terpercaya untu...</i>
             </span>
           </div>
