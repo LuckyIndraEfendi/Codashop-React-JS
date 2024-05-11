@@ -14,7 +14,7 @@ const Home = () => {
           <h1 className="text-2xl md:text-3xl font-poetsenOne text-white py-5">
             Recomendation
           </h1>
-          <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 mt-5 gap-5 row-auto">
+          <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 mt-5 gap-2 md:gap-5 row-auto">
             <CardList productData={productList} />
           </div>
         </section>
@@ -23,7 +23,7 @@ const Home = () => {
           <h1 className="text-2xl md:text-3xl font-poetsenOne text-white py-5">
             BELI KODE VOUCHER
           </h1>
-          <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 mt-5 gap-5 row-auto">
+          <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 mt-5 gap-2 md:gap-5 row-auto">
             <CardList productData={productList} />
           </div>
         </section>
