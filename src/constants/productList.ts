@@ -10,84 +10,84 @@ export const productList: Product[] = [
     id: 1,
     name: "Free Fire",
     thumbnail:
-      "https://wave-cloud.s3.ap-south-1.amazonaws.com/neocloud/p_user_4349/image/403e07cb-9efe-aac8-9419-ae3d52fd8eb9.jpg",
+      "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/free-fire-tile-codacash-new.jpg",
     product_link: "/checkout/free-fire",
   },
   {
     id: 2,
     name: "EA SPORTS FC Mobile",
     thumbnail:
-      "https://wave-cloud.s3.ap-south-1.amazonaws.com/neocloud/p_user_4349/image/thumb_6022c483-86e0-a051-4d9b-47af3268bbaa.jpg",
+      "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/FCM25_tile-image.png",
     product_link: "/checkout/ea-sports-fc-mobile",
   },
   {
     id: 3,
     name: "Mobile Legends",
     thumbnail:
-      "https://wave-cloud.s3.ap-south-1.amazonaws.com/neocloud/p_user_4349/image/412937d2-e360-79ad-aa0e-3480578bc6bf.png",
+      "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/MLBB-tile-codacash-new.jpg",
     product_link: "/checkout/mobile-legends",
   },
   {
     id: 4,
     name: "Clash of Clans",
     thumbnail:
-      "https://wave-cloud.s3.ap-south-1.amazonaws.com/neocloud/p_user_4349/image/3d817058-b367-d160-c0bd-ae432f1fd2a7.jpg",
+      "https://firebasestorage.googleapis.com/v0/b/lucky-indra-efendi-portfolio.appspot.com/o/assets%2FClash-of-Clans-Codacash.jpg?alt=media",
     product_link: "/checkout/clash-of-clans",
   },
   {
     id: 5,
     name: "PUBG Mobile UC Vouchers",
     thumbnail:
-      "https://wave-cloud.s3.ap-south-1.amazonaws.com/neocloud/p_user_4349/image/1caf5be5-55b5-1a8e-1a3f-91270d4b3ec9.jpg",
+      "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/pubgm_tile_aug2024.jpg",
     product_link: "/checkout/pubg-mobile-uc-vouchers",
   },
   {
     id: 6,
-    name: "Brawl Stars",
+    name: "Honkai:Star Rail",
     thumbnail:
-      "https://wave-cloud.s3.ap-south-1.amazonaws.com/neocloud/p_user_4349/image/f3c27511-ce06-94e3-b82e-c6e5f8660832.jpg",
-    product_link: "/checkout/brawl-stars",
+      "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/hsr_tile.jpg",
+    product_link: "/checkout/honkai-star-rail",
   },
   {
     id: 7,
     name: "Valorant",
     thumbnail:
-      "https://wave-cloud.s3.ap-south-1.amazonaws.com/neocloud/p_user_4349/image/f65d03b0-1e68-392f-2c4d-f163f4729403.jpg",
+      "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/valorant_tile.jpg",
     product_link: "/checkout/valorant",
   },
   {
     id: 8,
     name: "Super Sus",
     thumbnail:
-      "https://wave-cloud.s3.ap-south-1.amazonaws.com/neocloud/p_user_4349/image/8913e5a9-554e-1fdc-dc7d-159e95f6ff9a.jpg",
+      "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/supersus-tile-codacash-new.jpg",
     product_link: "/checkout/super-sus",
   },
   {
     id: 9,
     name: "League of Legends: Wild Rift",
     thumbnail:
-      "https://wave-cloud.s3.ap-south-1.amazonaws.com/neocloud/p_user_4349/image/953e5a18-da27-4ca1-3694-067819322553.jpg",
+      "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/Wildrift_APPICON_iOS_1024px.png",
     product_link: "/checkout/league-of-legends",
   },
   {
     id: 10,
     name: "Call of Duty: Mobile",
     thumbnail:
-      "https://wave-cloud.s3.ap-south-1.amazonaws.com/neocloud/p_user_4349/image/a769b0cd-d70f-4402-1187-9a50abd7b93f.jpg",
+      "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/CODM-tile-codacash-new.jpg",
     product_link: "/checkout/call-of-duty-mobile",
   },
   {
     id: 11,
     name: "Steam Wallet Code",
     thumbnail:
-      "https://wave-cloud.s3.ap-south-1.amazonaws.com/neocloud/p_user_4349/image/f42273ca-21c9-754a-11f9-9dc216f2081c.jpg",
+      "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/steam-tile-codacash-new.jpg",
     product_link: "/checkout/steam-wallet-code",
   },
   {
     id: 12,
     name: "State of Survival",
     thumbnail:
-      "https://wave-cloud.s3.ap-south-1.amazonaws.com/neocloud/p_user_4349/image/c2c3465e-edcf-c80c-bcf1-b17c024c2b5b.jpg",
+      "https://cdn1.codashop.com/S/content/mobile/images/product-tiles/stateofsurvival-tile-codacash-new.jpg",
     product_link: "/checkout/state-of-survival",
   },
 ];
