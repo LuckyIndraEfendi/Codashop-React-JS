@@ -1,5 +1,5 @@
 import { createBrowserRouter } from "react-router-dom";
-import { CheckOut, Home } from "../pages";
+import { CheckOut, Home, NotFound } from "../pages";
 import RootLayout from "@/layouts/RootLayout";
 
 const router = createBrowserRouter([
@@ -16,6 +16,10 @@ const router = createBrowserRouter([
         element: <CheckOut />,
       },
     ],
+  },
+  {
+    path: "*",
+    element: <NotFound />,
   },
 ]);
 

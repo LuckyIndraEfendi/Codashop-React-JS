@@ -2,6 +2,7 @@ import { IoIosSearch } from "react-icons/io";
 import { Button } from "./ui/button";
 import { cn } from "@/lib/utils";
 import OpenNavbar from "./open-navbar";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
@@ -11,11 +12,13 @@ const Navbar = () => {
             <div className="hamburger hover:cursor-pointer">
               <OpenNavbar />
             </div>
-            <img
-              src="https://cdn1.codashop.com/S/content/mobile/images/codashop-logo-new-3a.png"
-              alt=""
-              className="w-32 h-10 object-contain"
-            />
+            <Link to={"/"}>
+              <img
+                src="https://cdn1.codashop.com/S/content/mobile/images/codashop-logo-new-3a.png"
+                alt=""
+                className="w-32 h-10 object-contain"
+              />
+            </Link>
             <span className="text-white  text-sm hidden md:block md:text-lg font-light">
               <i>Website top-up terbesar, tercepat dan terpercaya untu...</i>
             </span>

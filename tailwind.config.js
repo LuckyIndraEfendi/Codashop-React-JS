@@ -22,6 +22,7 @@ export default {
         poetsenOne: ["Poetsen One", "sans-serif"],
         karla: ["Karla", "sans-serif"],
         freeman: ["Freeman", "sans-serif"],
+        inter: ["Inter", "sans-serif"],
       },
       colors: {
         border: "hsl(var(--border))",

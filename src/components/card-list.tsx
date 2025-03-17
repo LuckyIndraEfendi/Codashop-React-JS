@@ -12,7 +12,7 @@ const CardList = ({ productData }: { productData: Product[] }) => {
             </div>
             <div className="home-feeds-clip-path"></div>
             <div className="product-name bg-[rgba(243,239,239,0.1)] py-2 px-2 flex items-center justify-center h-16 md:h-20">
-              <h1 className="text-white text-sm md:text-base font-karla font-medium text-center">
+              <h1 className="text-white text-sm md:text-base lg:text-lg font-karla font-medium text-center">
                 {product.name}
               </h1>
             </div>
