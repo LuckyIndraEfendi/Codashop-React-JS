@@ -1,6 +1,6 @@
 import { Input } from "@/components/ui/input";
 import { cn } from "@/lib/utils";
-import { Headset, ShieldCheck } from "lucide-react";
+import { Flame, Headset, ShieldCheck } from "lucide-react";
 import { Link } from "react-router-dom";
 import {
   Tooltip,
@@ -8,8 +8,16 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
+import { useState } from "react";
 
 const CheckOut = () => {
+  const [selected, setSelected] = useState("option1");
+
+  const options = [
+    { id: "option1", label: "Paket A", desc: "5GB Internet + 50 Menit" },
+    { id: "option2", label: "Paket B", desc: "10GB Internet + 100 Menit" },
+    { id: "option3", label: "Paket C", desc: "20GB Internet + 200 Menit" },
+  ];
   return (
     <>
       <main className="sm:w-[80%] mx-auto mt-4">
@@ -95,7 +103,7 @@ const CheckOut = () => {
               </div>
             </div>
           </div>
-          <div className="md:col-span-3">
+          <div className="md:col-span-3 flex flex-col gap-5">
             <div className=" bg-white w-full  mt-3 relative rounded-md">
               <div>
                 <div className="-top-5 absolute left-5 rounded-full ring-4 ring-white">
@@ -151,6 +159,68 @@ const CheckOut = () => {
                     Untuk menemukan ID Anda, klik pada ikon karakter. User ID
                     tercantum di bawah nama karakter Anda. Contoh: '5363266446'.
                   </p>
+                </div>
+              </div>
+            </div>
+
+            <div className=" bg-white w-full  mt-3 relative rounded-md">
+              <div>
+                <div className="-top-5 absolute left-5 rounded-full ring-4 ring-white">
+                  <img
+                    src="/assets/number-2.png"
+                    alt=""
+                    width={40}
+                    height={40}
+                  />
+                </div>
+                <h1 className="relative left-20 font-inter text-lg font-bold md:text-xl text-[#2f1236]">
+                  Pilih Nominal Top Up
+                </h1>
+              </div>
+              <div className="px-4 py-5 ">
+                <div className="relative flex items-center font-inter w-full md:w-1/2 font-semibold gap-1 bg-gradient-to-b from-[#d13262] to-[#ff7f98] py-[6px] rounded-full px-3 text-white text-sm overflow-hidden">
+                  <Flame size={24} className="block" />
+                  <span>11.000 item dibeli dalam satu jam terakhir</span>
+
+                  {/* Efek kilap */}
+                  <div className="absolute inset-0 bg-gradient-to-r from-transparent rotate-45 via-white/30 to-transparent w-full h-full translate-x-[-100%] animate-shine"></div>
+                </div>
+
+                <div>
+                  <div className="flex flex-col gap-3">
+                    {options.map((option) => (
+                      <label
+                        key={option.id}
+                        className={`cursor-pointer relative flex items-center gap-4 p-4 border-2 rounded-lg text-sm transition-all ${
+                          selected === option.id
+                            ? "border-pink-500 bg-pink-100"
+                            : "border-gray-300 bg-white"
+                        }`}
+                      >
+                        <input
+                          type="radio"
+                          name="custom-radio"
+                          value={option.id}
+                          checked={selected === option.id}
+                          onChange={() => setSelected(option.id)}
+                          className="hidden"
+                        />
+                        <div className="flex flex-col">
+                          <span className="font-semibold text-gray-900">
+                            {option.label}
+                          </span>
+                          <span className="text-gray-600 text-xs">
+                            {option.desc}
+                          </span>
+                        </div>
+                        {selected === option.id && (
+                          <div className="absolute right-3 top-3 bg-pink-500 text-white text-xs px-2 py-1 rounded-full">
+                            Terpilih
+                          </div>
+                        )}
+                      </label>
+                    ))}
+                  </div>
                 </div>
               </div>
             </div>
