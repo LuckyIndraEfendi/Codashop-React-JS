@@ -1,7 +1,6 @@
 import CardList from "@/components/card-list";
 import CardSlider from "@/components/swiper/card-slider";
 import { codaAbout } from "@/constants/aboutList";
-import { productList } from "@/constants/productList";
 
 const Home = () => {
   return (
@@ -15,7 +14,7 @@ const Home = () => {
             Recomendation
           </h1>
           <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 mt-5 gap-2 md:gap-5 row-auto">
-            <CardList productData={productList} />
+            <CardList />
           </div>
         </section>
 
@@ -24,7 +23,7 @@ const Home = () => {
             BELI KODE VOUCHER
           </h1>
           <div className="grid grid-cols-3 md:grid-cols-5 lg:grid-cols-6 mt-5 gap-2 md:gap-5 row-auto">
-            <CardList productData={productList} />
+            <CardList />
           </div>
         </section>
 

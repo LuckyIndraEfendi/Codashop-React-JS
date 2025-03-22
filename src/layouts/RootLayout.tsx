@@ -8,7 +8,9 @@ const RootLayout = () => {
     <>
       <Navbar />
       <Suspense fallback={<FallBackLoading />}>
-        <Outlet />
+        <div className="mt-24">
+          <Outlet />
+        </div>
       </Suspense>
       <Footer />
     </>
