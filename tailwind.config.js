@@ -77,11 +77,23 @@ export default {
           "0%": { transform: "translateX(-100%)" },
           "100%": { transform: "translateX(100%)" },
         },
+        shine_loading: {
+          "0%": { backgroundPosition: "left -40px top 0" },
+          "100%": { backgroundPosition: "right -40px top 0" },
+        },
       },
       animation: {
+        shine_loading: "shine_loading 1s ease infinite",
         shine: "shine 5s infinite linear",
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
+      },
+      backgroundSize: {
+        "shine-width": "40px 100%",
+      },
+      backgroundImage: {
+        "skeleton-shine":
+          "linear-gradient(90deg, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0))",
       },
     },
   },

@@ -28,7 +28,7 @@ export const useFetchProductListById = (
       const { data } = await fetchProductListById(id);
       return data?.[0];
     },
-    staleTime: 10 * 1000,
+    // staleTime: 10 * 1000,
   });
 };
 
@@ -42,6 +42,6 @@ export const useFetchProductList = (): QueryObserverResult<
       return data;
     },
     queryKey: ["list_products"],
-    staleTime: 10 * 1000,
+    // staleTime: 10 * 1000,
   });
 };

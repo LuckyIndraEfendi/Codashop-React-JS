@@ -2,11 +2,8 @@ import { Link } from "react-router-dom";
 import { useFetchProductList } from "@/hooks/useFetchProductList";
 import FallBackLoading from "./loading/fallback-loading";
 import { MotionDiv } from "./motion";
+import { variant } from "@/lib/utils";
 
-const variant = {
-  hidden: { opacity: 0 },
-  visible: { opacity: 1 },
-};
 const CardList = () => {
   const { data, isLoading } = useFetchProductList();
 

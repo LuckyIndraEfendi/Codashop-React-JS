@@ -64,3 +64,11 @@ export interface Product {
   product_link: string;
   details_products: ProductDetailsTypes;
 }
+
+export interface ResultUserIDCheck {
+  status: string;
+  server_time: string;
+  message: string;
+  nickname: string;
+  type_name: string;
+}
