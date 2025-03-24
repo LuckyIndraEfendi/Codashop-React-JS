@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <>
-      <header className="bg-[#330d3b]  shadow-sm">
+      <header className="bg-[#330d3b]  shadow-sm fixed w-full top-0 z-50">
         <nav className="w-[90%] m-auto py-3 flex justify-between items-center ">
           <div className="logo flex items-center gap-3">
             <div className="hamburger hover:cursor-pointer">
